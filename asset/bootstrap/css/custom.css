@@ -1,0 +1,203 @@
+body {
+    font-family: 'Lato';
+}
+
+.fa-btn {
+    margin-right: 6px;
+}
+
+.relative{
+	min-height: 425px;
+	margin:0px 13px 10px 13px;
+}
+
+.footer{
+	border-top:1px solid #efefef;
+	padding: 15px 0px 15px 0px;
+	text-align: center;
+}
+
+.navbar-default {
+  background-color: #39ae3c;
+  border-color: #2d982f;
+}
+.navbar-default .navbar-brand {
+  color: #e7e7e7;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #e7e7e7;
+}
+.navbar-default .navbar-text {
+  color: #e7e7e7;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #e7e7e7;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #e7e7e7;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #39ae3c;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #e7e7e7;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #e7e7e7;
+  background-color: #2d982f;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #2d982f;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #e7e7e7;
+  background-color: #2d982f;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #e7e7e7;
+  background-color: #2d982f;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #e7e7e7;
+  background-color: #2d982f;
+}
+.navbar-default .navbar-toggle {
+  border-color: #2d982f;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #2d982f;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #e7e7e7;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-link {
+  color: #e7e7e7;
+}
+.navbar-default .navbar-link:hover {
+  color: #e7e7e7;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #e7e7e7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #e7e7e7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #e7e7e7;
+    background-color: #2d982f;
+  }
+}
+
+.hide-nav{
+	display: none;
+}
+
+.show-nav{
+	display: show;
+}
+
+/*Remove border table*/
+.no-borders th, .table td {
+    border: 1px !important;
+}
+
+/*Button custom*/
+.btn-custom {
+  background-color: #39ae3c;
+  border-color: #39ae3c;
+  color: white;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+  background-color: #0f7f56;
+  border-color: #0d6846;
+  color: white;
+}
+.btn-custom.disabled:hover,
+.btn-custom.disabled:focus,
+.btn-custom.disabled:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled]:hover,
+.btn-custom[disabled]:focus,
+.btn-custom[disabled]:active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom:hover,
+fieldset[disabled] .btn-custom:focus,
+fieldset[disabled] .btn-custom:active,
+fieldset[disabled] .btn-custom.active {
+  background-color: #39ae3c;
+  border-color: #39ae3c;
+}
+
+.col-bordered{
+	border: 1px solid #39ae3c;
+}
+
+/*Menu top*/
+.border-menu{
+	border-left: 1px solid #62b395;
+}
+
+/*Heading panel*/
+.heading{
+  background: #39ae3c;
+  color: #fff;
+  padding:4px 8px 4px 8px;
+  margin:0px -15px 15px -15px;
+}
+
+.edit-table{
+  color: #f0ad4e;
+}
+
+.delete-table{
+  color: #d9534f;
+}
+
+/*Pesan untuk form*/
+.message-form{
+  color: #d9534f;
+  margin-top: 5px;
+}
+
+.breadcrumb{
+  color: #39ae3c;
+}
+
+.breadcrumb a{
+  color: #39ae3c;
+}
+
+.log{
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 5px;
+}
+.log .date{
+  color: #39ae3c;
+}
+.wajib{color:#a94442;}
+
+.nav-tabcs{background: #39ae3c; padding: -10px;}
+.nav-tabcs li a{color:#fff; padding: 7px;}
+.nav-tabcs li a:hover{color:#39ae3c; padding: 7px;}
